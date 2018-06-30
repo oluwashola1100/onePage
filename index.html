@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>OnePage</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="slide">
+            <a href="#" id="open">
+                <div class="drop"></div>
+                <div class="drop"></div>
+                <div class="drop"></div>
+            </a>
+        </span>
+        <ul class="nav">
+            <li><a href="#main"> Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="side" id="side">
+        <a href="#" class="close" id="close">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="main">
+        <section class="show">
+            <div class="overlay">
+                <h1>Hello,<br>I'm Shola</h1>
+                <p>Front-end Web Developer</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <div class="tab">
+                    <div class="tab1">
+                        <h3>Awesome, Responsive,<br>Website Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum voluptatibus cumque perferendis magni incidunt exercitationem, ad corporis eius maxime commodi nulla omnis nobis odit laborum dicta distinctio autem obcaecati?
+                            Assumenda culpa, esse quaerat molestiae eum modi officia odit velit.</p>
+                    </div>
+                    <div class="tab2">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Our selected works</h2>
+                <p>We build website completely with passine, simplicity and creativity</p>
+                <div class="cards">
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                    <div class="card"><img src="img2.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <div class="container">
+                <div>
+                    <form>
+                        <label for="firname">First Name:</label>
+                        <input type="text" name="firstname" placeholder="Your name..">
+
+                        <label for="lasname">Last Name:</label>
+                        <input type="text" name="email" placeholder="Input your email..">
+                        <label for="message">Message:</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            &copy; <span class="date"></span>
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
